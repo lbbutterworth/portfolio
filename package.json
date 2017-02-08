@@ -9,7 +9,6 @@
   "author": "Liam Butterworth",
   "license": "ISC",
   "dependencies": {
-	  "express": "^4.14.1",
-	  "debug": "^2.6.0"
+	  "koa": "^1.2.4"
   }
 }

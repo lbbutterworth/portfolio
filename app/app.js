@@ -1,9 +1,8 @@
-var express = require('express'),
-	PORT    = 3000,
-	app     = express();
+const koa = require('koa');
+const app = koa();
 
-app.get('/', function(req, res) {
-	res.send('Hello World\n');
+app.use(function *() {
+	this.body = 'Hello world';
 });
 
 module.exports = app;
